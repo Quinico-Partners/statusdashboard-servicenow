@@ -41,7 +41,7 @@
         var httpStatus = response.getStatusCode();
     } catch (ex) {
         var message = ex.message;
-		gs.error("Error message: " + message);
+        gs.error("Error message: " + message);
     }
 
     gs.info("Webhook target HTTP status response: " + httpStatus);
