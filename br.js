@@ -1,9 +1,6 @@
 (function executeRule(current, previous /*null when async*/) {
 
-    var secretKey = 'foo';
-
 	var debug = false;
-	
 	
     try {
         var r = new sn_ws.RESTMessageV2();
