@@ -28,6 +28,7 @@
         var obj = {
             'sys_id': sys_id,
             'state': state,
+            'event_type': 'incident',
             'business_service': business_service,
             'description': description,
             'impacted_services': impacted_services
